@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:anvil"
+		},
+		"title": "teh3l3m3nts Minecraft",
+		"frame": "challenge",
+		"description": ["",{"text":"All loaded teh3l3m3nts Minecraft data packs\n","color":"gold"},{"text":"teh3l3m3nts.com","color":"yellow"}],
+		"background": "minecraft:textures/block/black_concrete.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
