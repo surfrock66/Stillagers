@@ -1,8 +1,6 @@
 # Stillagers
 Minecraft Datapack to limit villager movement and lag in trading halls
 
-I created a datapack which helps with villager lag in trading halls.
-
 If you name tag a villager with ?Stillager? or ?stillager? they will stop moving and path finding altogether. This is done by setting the ?NoAI? tag of the villager to 1. This typically eliminates restocks, so I have a function to manually restock all trades at 8:00 AM and 2:00 PM. This is mostly consistent with vanilla behavior, villagers restock twice a day at slightly random times, but their 4 phases of the day (work, gather, wander, and sleep) can be divided into 4 segments which is the logic behind the restock times.
 
 If you want to disable this, you tag the villager with ?Moveager? or ?moveager? and the name disappears and their AI is restored.
