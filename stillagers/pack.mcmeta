@@ -1,11 +1,11 @@
 {
   "pack": {
-    "pack_format": 94.1,
+    "pack_format": 101.1,
     "min_format": 4,
-    "max_format": [94, 0],
+    "max_format": [101, 1],
     "supported_formats": {
       "min_inclusive": 4,
-      "max_inclusive": 94.1
+      "max_inclusive": 101.1
     },
     "description": [
       {
@@ -48,11 +48,20 @@
         }
       },
       {
-        "directory": "v71-88.0",
+        "directory": "v71-94.1",
         "min_format": 71,
-        "max_format": 9999999,
+        "max_format": [94, 1],
         "formats": {
           "min_inclusive": 71,
+          "max_inclusive": 94.1
+        }
+      },
+      {
+        "directory": "v101.1",
+        "min_format": [101, 1],
+        "max_format": 9999999,
+        "formats": {
+          "min_inclusive": 101.1,
           "max_inclusive": 9999999
         }
       }

@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:name_tag"
+		},
+		"title": "Disable Villager Movement",
+		"description": ["",{"text":"Adds the ability to stop villager pathfinding and movement using a name tag. ","color":"gold"},{"text":"Stillager ","color":"yellow"},{"text":"and ","color":"gold"},{"text":"stillager","color":"yellow"},{"text":" are acceptable names. Trades will restock at 8:00 AM and 2:00 PM.  Re-enable movement by naming the villagers ","color":"gold"},{"text":"Moveager","color":"yellow"},{"text":" or ","color":"gold"},{"text":"moveager","color":"yellow"},{"text":".","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "teh3l3m3nts:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
